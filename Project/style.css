@@ -60,3 +60,18 @@ ul {
 .dropdown-content a:hover {
   background-color: #ddd;
 }
+.flex-container2 {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-content {
+  flex: 1;
+  margin-right: 20px; /* Add margin to separate the image from text */
+}
+
+.right-content {
+  flex: 2; /* Adjust the flex value to control the width of the text content */
+}
