@@ -27,7 +27,52 @@
                 <img class="foto1" src="foto1.jpg" alt="image">
             </div>
             <div class="right-content">
-                <!-- Your text content goes here -->
+                <p class="WelcomeMessage">Welkom bij het opleiding Software Developer</p>
+            </div>
+        </section>
+
+        <section class="flex-container3">
+            <div class="form-section">
+                <h2>Hier aanmelden</h2>
+                <form action="submit.php" method="post" class="form-container">
+                    <div class="form-field">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="message">Motivatie:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="checkbox">Check dit box als je 18+ bent:</label>
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                    </div>
+        
+                    <div class="form-field">
+                        <label for="radio">Choose an option:</label>
+                        <input type="radio" id="radio1" name="radio" value="Male">Male
+                        <input type="radio" id="radio2" name="radio" value="Female">Female
+                    </div>
+
+                    <div class="form-field">
+                        <button type="submit" class="submit-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="image-section">
+            <img src="class.jpg" alt="image">
             </div>
         </section>
     </main>

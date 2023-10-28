@@ -69,9 +69,73 @@ ul {
 }
 .left-content {
   flex: 1;
-  margin-right: 20px; /* Add margin to separate the image from text */
+  margin-right: 200px; /* Add margin to separate the image from text */
 }
 
 .right-content {
   flex: 2; /* Adjust the flex value to control the width of the text content */
+}
+.WelcomeMessage {
+  font-size: 42px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+.flex-container3 {
+  display: flex;
+}
+
+.form-section {
+  flex: 2; /* Adjust the flex value to control the width of the form section */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.image-section {
+  flex: 1; /* Adjust the flex value to control the width of the image section */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: right;
+}
+.flex-container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+}
+.textimagespace {
+  margin-bottom: 20px;
+}
+.image-section2 {
+  max-width: 100%;
+}
+.flex-container6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
 }
