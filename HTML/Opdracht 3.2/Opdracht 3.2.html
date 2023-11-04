@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI Boekingsformulier</title>
+</head>
+<body>
+    <h1>Boekingsformulier</h1>
+    <form id="boekingsformulier">
+        <ul>
+            <Li><label for="voornaam">Voornaam:</label></Li>
+                <input type="text" id="voornaam" name="voornaam">
+
+            <li><label for="achternaam">Achternaam:</label></Li>
+                <input type="text" id="achternaam" name="achternaam">
+        </ul>
+        <ul>
+            <li><label>Geslacht:</label></Li>
+                <input type="radio" id="man" name="geslacht" value="man">
+            <li><label for="man">Man</label></Li>
+                <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            <li><label for="vrouw">Vrouw</label></Li>
+        </ul>
+        <ul>            
+            <li><label for="straat">Straat met huisnummer:</label></Li>
+                <input type="text" id="straat" name="straat">
+            <li><label for="postcode">Postcode:</label></Li>
+                <input type="text" id="postcode" name="postcode">
+            <li><label for="stad">Stad:</label></Li>
+                <input type="text" id="stad" name="stad">
+
+            <li><label for="land">Land:</label></Li>
+        <select id="land" name="land">
+            <li><option value="Nederland">Nederland</option></Li>
+            <li><option value="België">België</option></Li>
+            <li><option value="Duitsland">Duitsland</option></Li>
+            <li><option value="Frankrijk">Frankrijk</option></Li>
+            <li><option value="Italië">Italië</option></Li>
+        </select>
+
+            <li><label for="bsn">BSN-nummer:</label></Li>
+                <input type="text" id="bsn" name="bsn">
+        </ul>        
+        <ul>
+            <li><label for="vakantieland">Vakantieland:</label></Li>
+        <select id="vakantieland" name="vakantieland" >
+            <li><option value="Spanje">Spanje</option></Li>
+            <li><option value="Frankrijk">Frankrijk</option></Li>
+            <li><option value="Engeland">Engeland</option></Li>
+            <li><option value="Noorwegen">Noorwegen</option></Li>
+            <li><option value="Griekeland">Griekeland</option></Li>
+        </select>
+        </ul>
+        <ul>
+            <li><label for="vertrekdatum">Datum van vertrek:</label></Li>
+                <input type="date" id="vertrekdatum" name="vertrekdatum">
+
+            <li><label for="terugkomstdatum">Datum van terugkomst:</label></Li>
+                <input type="date" id="terugkomstdatum" name="terugkomstdatum">
+
+            <li><label for="aantalreisgenoten">Aantal reisgenoten (max 4 Personen)</label></Li>
+                <input type="number" id="aantalreisgenoten" name="aantalreisgenoten">
+        </ul>
+        <ul>        
+            <li><label for="email">E-mail:</label></Li>
+                <input type="email" id="email" name="email">
+            <li><label for="wachtwoord">Wachtwoord</label></Li>
+            <input type="password" id="wachtwoord" name="wachtwoord">
+        </ul>        
+            <input type="submit" value="Boek nu">
+    </form>
+</body>
+</html>
