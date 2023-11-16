@@ -1,12 +1,12 @@
-const closedFace = document.querySelector("closed");
-const openFace = document.querySelector("open");
+var openEyes = document.getElementById("opened");
+var closeEyes = document.getElementById("closed");
 
-function openFace() {
-
-    
+openEyes.onclick = function() {
+    openEyes.style.display = "none";
+    closeEyes.style.display = "block";
 }
 
-function closedFace() {
-
-
+closeEyes.onclick = function() {
+    openEyes.style.display = "block";
+    closeEyes.style.display = "none";
 }
