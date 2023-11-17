@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    
+    <button onclick="showAgePopup()">Verify Age</button>
+
+    <div id="Overlay"></div>
+
+    <div id="agePopup">
+        <p>Insert your age:</p>
+        <input type="number" id="ageInput" placeholder="Age">
+        <button onclick="checkAge()">Check age</button>
+    </div>
+
+    <div class="red-page" id="AgeRestriction">
+        <p>You are too young.</p>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
