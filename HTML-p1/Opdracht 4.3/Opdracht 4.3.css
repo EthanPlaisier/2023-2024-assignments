@@ -1,4 +1,3 @@
-/* Opdracht 4.3 css - Made by Dylan */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,7 @@ html {
 }
 body {
   background-color: black;
-  background-image: url("../Images/hacker.png");
+  background-image: url("hacker.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

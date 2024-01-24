@@ -31,7 +31,7 @@ a {
 header {
     width: 100%;
     min-height: 33vh; 
-    background-image: url("../Images/background.png");
+    background-image: url("background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
